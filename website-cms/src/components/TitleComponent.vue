@@ -20,7 +20,7 @@ export default {
   justify-content: center;
   position: relative;
   margin: 20px auto;
-  width: 250px;
+  width: 400px;
   height: 100px;
   background: white;
   border-radius: 150px;
@@ -29,8 +29,11 @@ export default {
   font-weight: lighter;
   letter-spacing: 2px;
   transition: 1s box-shadow;
-  background-color: black;
+  background: rgb(147,12,12);
+  background: linear-gradient(90deg, rgba(147,12,12,1) 0%, rgba(2,0,36,1) 60%);
   color:white;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .titlu:hover {

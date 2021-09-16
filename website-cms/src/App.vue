@@ -2,7 +2,7 @@
 <section>
 <Text></Text>
 <TitleComponent></TitleComponent>
-<adaugare-buton></adaugare-buton>
+<AdaugareButon></AdaugareButon>
 
 
 </section>
@@ -13,7 +13,7 @@
 <script>
 import TitleComponent from './components/TitleComponent.vue'
 import Text from './components/Text.vue'
-import AdaugareButon from './components/AdaugareButon.vue'
+import AdaugareButon from './components/ButoaneSearchBar.vue'
 
 
 export default {

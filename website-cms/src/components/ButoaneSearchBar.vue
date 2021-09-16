@@ -2,6 +2,7 @@
 <section>
 <button class="Adaugare" type="submit"><span>{{Adaugare}}</span></button>
 <div class="hide">{{Hide1Message}}</div>
+<button class="Sortare" type="submit"><span>{{Sortare}}</span></button>
 </section>
 </template>
 
@@ -11,6 +12,7 @@ export default {
         return {
             Adaugare: "Adaugare membru",
             Hide1Message: "Adauga rapid un nou membru in tabelul de mai jos.Urmeaza cu atentie pasii!",
+            Sortare: "Sorteaza membrii"
 
         };
     }
@@ -20,7 +22,6 @@ export default {
 
 <style>
 .Adaugare {
-  margin-top: 20px;
   font-size: large;
   background: rgba(2,0,36,1);
   padding: 15px 32px;
@@ -31,7 +32,7 @@ export default {
   margin-top: 5rem;
   cursor: pointer;
   font-family: monospace;
-  border-radius: 15px;
+  border-radius: 20px;
   box-shadow: 0 9px rgba(2,0,36,1);
   outline: none;
   color: white;

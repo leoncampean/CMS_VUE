@@ -1,8 +1,9 @@
 <template>
 <section>
-<button class="Adaugare" type="submit"><span>{{Adaugare}}</span></button>
+<button class="Adaugare" type="button"><span>{{Adaugare}}</span></button>
 <div class="hide">{{Hide1Message}}</div>
-<button class="Sortare" type="submit"><span>{{Sortare}}</span></button>
+<button class="Sortare" type="button"><span>{{Sortare}}</span></button>
+<div class="hide2">{{Hide2Message}}</div>
 </section>
 </template>
 
@@ -11,9 +12,7 @@ export default {
     data() {
         return {
             Adaugare: "Adaugare membru",
-            Hide1Message: "Adauga rapid un nou membru in tabelul de mai jos.Urmeaza cu atentie pasii!",
-            Sortare: "Sorteaza membrii"
-
+            Sortare: "Sorteaza membrii",
         };
     }
     
@@ -81,6 +80,57 @@ export default {
   border-radius: 14px;
   border-width: 5px;
   border-color:#001E6C;
+}
+.Sortare {
+  font-size: large;
+  background-color: rgba(2,0,36,1);
+  float: right;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5rem;
+  cursor: pointer;
+  font-family: monospace;
+  border-radius: 15px;
+  box-shadow: 0 9px rgba(2,0,36,1);
+  outline: none;
+  color: white;
+}
+
+.Sortare:hover {
+  background-color: rgba(147,12,12,1);
+}
+
+.Sortare span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Sortare span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 20px;
+  transition: 0.5s;
+}
+
+.Sortare:hover span {
+  padding-left: 25px;
+}
+
+.Sortare:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+.Sortare:active {
+  box-shadow: 0 5px rgba(2,0,36,1);
+  transform: translateY(4px);
 }
 
 </style>

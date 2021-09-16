@@ -1,5 +1,5 @@
 <template>
-<title-component></title-component>
+<TitleComponent></TitleComponent>
 
 
 </template>

@@ -1,11 +1,8 @@
 import { createApp } from 'vue'
 
 import App from './App.vue'
-import TitleComponent from './components/TitleComponent.vue';
 
-const app = createApp(App);
+createApp(App).mount("#app");
 
-app.component('title-component', TitleComponent);
 
-app.mount('#app');
 

@@ -51,7 +51,7 @@ export default {
 
 table {
     color: whitesmoke;
-    margin-top: 3rem;
+    margin-top: 5rem;
     align-self: center;
     justify-self: center;
     width: 80%;

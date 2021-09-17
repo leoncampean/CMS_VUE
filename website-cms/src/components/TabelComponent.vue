@@ -51,6 +51,7 @@ th, td {
     width: 10rem;
     height: 5rem;
     background-color: rgba(2,0,36,1);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 th {

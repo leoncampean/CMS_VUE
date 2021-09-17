@@ -30,7 +30,7 @@ export default {
   font-size: 16px;
   margin-top: 5rem;
   cursor: pointer;
-  font-family: monospace;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border-radius: 20px;
   box-shadow: 0 9px rgba(2,0,36,1);
   outline: none;
@@ -92,7 +92,7 @@ export default {
   font-size: 16px;
   margin-top: 5rem;
   cursor: pointer;
-  font-family: monospace;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border-radius: 15px;
   box-shadow: 0 9px rgba(2,0,36,1);
   outline: none;

@@ -51,9 +51,9 @@ export default {
 
 table {
     color: whitesmoke;
-    margin-top: 5rem;
     align-self: center;
     justify-self: center;
+    margin-top: 1rem;
     width: 80%;
     margin-left: 10%;
     text-align: center;

@@ -81,6 +81,7 @@ export default {
   border-width: 5px;
   border-color:#001E6C;
 }
+
 .Sortare {
   font-size: large;
   background-color: rgba(2,0,36,1);

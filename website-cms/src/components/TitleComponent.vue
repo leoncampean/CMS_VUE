@@ -134,5 +134,4 @@ export default {
     right: 0;    
   }
 }
-
 </style>

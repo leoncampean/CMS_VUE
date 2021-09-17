@@ -8,8 +8,16 @@
             <th>{{Sex}}</th>
             <th>{{DataNasterii}}</th>
             <th>{{Actiuni}}</th>
-
         </thead>
+        <tbody>
+            <td>{{Leon.nume}}</td>
+            <td>{{Leon.prenume}}</td>
+            <td>{{Leon.email}}</td>
+            <td>{{Leon.sex}}</td>
+            <td>{{Leon.DataNasterii}}</td>
+            <td>Delete</td>
+        </tbody>
+
     </table>
 
 </section>
@@ -25,7 +33,14 @@ export default {
             Email: "Email",
             Sex: "Sex",
             DataNasterii: "Data Nasterii",
-            Actiuni: "Actiuni"
+            Actiuni: "Actiuni",
+            Leon: {
+                nume: "Campean",
+                prenume: "Leon",
+                email: "leoncampean90@gmail.com",
+                sex: "Barbat",
+                DataNasterii: "17/03/2000",
+            },
         };
     }
     
@@ -57,6 +72,7 @@ th, td {
 th {
     font-size: 20px;
 }
+
 th:hover {
     background-color: rgba(2,0,36,0);
 }

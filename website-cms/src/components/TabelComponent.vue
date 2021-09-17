@@ -1,6 +1,6 @@
 <template>
 <section>
-    <table class="tabel"> 
+    <table> 
         <thead>
             <th>{{Nume}}</th>
             <th>{{Prenume}}</th>
@@ -34,7 +34,7 @@ export default {
 
 <style>
 
-.tabel {
+table {
     color: whitesmoke;
     margin-top: 3rem;
     align-self: center;
@@ -42,7 +42,23 @@ export default {
     width: 80%;
     margin-left: 10%;
     text-align: center;
-    
+    border-collapse: collapse;  
 }
+
+th, td {
+    border-style: double;
+    border-color: whitesmoke;
+    width: 10rem;
+    height: 5rem;
+    background-color: rgba(2,0,36,1);
+}
+
+th {
+    font-size: 20px;
+}
+th:hover {
+    background-color: rgba(2,0,36,0);
+}
+
 
 </style>

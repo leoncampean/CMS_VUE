@@ -13,7 +13,7 @@
 
 <script>
 import TitleComponent from './components/TitleComponent.vue'
-import Text from './components/TextComponent.vue'
+import Text from './components/TestComponent.vue'
 import AdaugareButon from './components/ButoaneComponent.vue'
 import TabelComponent from './components/TabelComponent.vue'
 
